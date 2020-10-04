@@ -1,10 +1,10 @@
 package javase.test.md5;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class DigestUtilsUtil {
 

@@ -4,8 +4,6 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.apache.poi.poifs.crypt.dsig.facets.Office2010SignatureFacet;
-
 
 public class LinkedHashMapDemo {
 
