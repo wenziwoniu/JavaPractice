@@ -30,7 +30,6 @@ public class ListSortDemo {
 		}
 		Collections.sort(list, new Comparator<String>() {
 
-			@Override
 			public int compare(String o1, String o2) {
 				BigDecimal bigDecimal = new BigDecimal(o1);
 				BigDecimal bigDecimal2 = new BigDecimal(o2);
@@ -91,7 +90,6 @@ public class ListSortDemo {
 			 * @param o2
 			 * @return
 			 */
-			@Override
 			public int compare(POJO o1, POJO o2) {
 				return o1.getName().compareTo(o2.getName());
 			}
