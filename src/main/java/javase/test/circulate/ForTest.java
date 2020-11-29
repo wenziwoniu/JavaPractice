@@ -2,6 +2,8 @@ package javase.test.circulate;
 
 public class ForTest {
 
+	public static String name;
+
 	/**
 	 * 功能 :
 	 * 开发：zwwang 2015-11-9 上午9:41:26
