@@ -19,6 +19,7 @@ public class ListTest {
 		list.add("abc");
 		System.out.println(list.contains(teString));*/
 		removeList();
+		System.out.println("a");
 	}
 	
 	public static void modifyList() {
