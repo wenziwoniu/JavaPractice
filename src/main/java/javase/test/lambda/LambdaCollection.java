@@ -29,7 +29,20 @@ public class LambdaCollection {
 //        listToMap();
 //        sortedDemo2();
 //        collecttest1();
-        collecttest3();
+//        collecttest3();
+        findFist();
+    }
+
+    public static void findFist() {
+
+        List<Integer> listint = new ArrayList<Integer>();
+        listint.add(100);
+        listint.add(2);
+        listint.add(5);
+
+        Optional optional = listint.stream().filter(x -> x > 1).findFirst();
+        System.out.println(optional.isPresent());
+        System.out.println(optional.orElseGet(() -> 100));
     }
 
     public static void reduceDemo() {
